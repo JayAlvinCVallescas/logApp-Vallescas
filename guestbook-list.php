@@ -26,7 +26,7 @@
                 <tbody>
                 <?php foreach($result as $person) : ?>
                     <tr>
-                    <th scope="row"><?php echo $person['person_id'];?></th>
+                    <th scope="row"><?php echo $person['pid'];?></th>
                     <td><?php echo $person['lastname'];?></td>
                     <td><?php echo $person['firstname'];?></td>
                     <td><?php echo $person['address'];?></td>
